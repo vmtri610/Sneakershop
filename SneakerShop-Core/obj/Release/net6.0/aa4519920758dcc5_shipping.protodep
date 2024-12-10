@@ -1,0 +1,2 @@
+obj\Release\net6.0/Shipping.cs \
+obj\Release\net6.0/ShippingGrpc.cs: ../ShippingService/Protos/shipping.proto

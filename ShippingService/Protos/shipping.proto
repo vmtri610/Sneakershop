@@ -1,0 +1,81 @@
+syntax = "proto3";
+
+option csharp_namespace = "ShippingService";
+
+package shipping;
+
+// The greeting service definition.
+service Shipping {
+  rpc AddShipping(CreateShippingRequest) returns(CreateShippingReply);
+  rpc GetNumOfShipping(GetNumOfShippingRequest) returns(GetNumOfShippingReply);
+  rpc GetShippingById(GetShippingByIdRequest) returns(GetShippingByIdReply);
+  rpc GetShippingPaginate(GetShippingPaginateRequest) returns(GetShippingPaginateReply);
+  rpc UpdateShipping(UpdateShippingRequest) returns(UpdateShippingReply);
+  rpc DeleteShipping(DeleteShippingRequest) returns(DeleteShippingReply);
+  rpc GetShippingPrice(GetShippingPriceRequest) returns(GetShippingPriceReply);
+
+}
+
+message ShippingData{
+	int64 id = 1;
+	int64 orderID = 2;
+	string status = 3;
+}
+
+message CreateShippingRequest {
+	ShippingData data = 1;
+}
+
+message CreateShippingReply {
+	string message = 1;
+}
+
+message GetNumOfShippingRequest {
+	string message = 1;
+}
+
+message GetNumOfShippingReply {
+	int64 total = 1;		
+}
+
+message GetShippingByIdRequest {
+	int64 id = 1;
+}
+
+message GetShippingByIdReply {
+	ShippingData data = 1;
+}
+
+message GetShippingPaginateRequest {
+	int32 limit = 2;
+	int64 afterID = 1;
+}
+
+message GetShippingPaginateReply {
+
+	repeated ShippingData shippingList = 1;
+}
+
+message UpdateShippingRequest {
+	ShippingData data = 1;
+}
+
+message UpdateShippingReply {
+	bool isSuccess = 1;
+}
+
+message DeleteShippingRequest {
+	int64 id = 1;
+}
+
+message DeleteShippingReply {
+	bool isSuccess = 1;
+}
+
+message GetShippingPriceRequest {
+	int64 id = 1;
+}
+
+message GetShippingPriceReply {
+	double price = 1;
+}

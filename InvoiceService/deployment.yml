@@ -1,0 +1,23 @@
+﻿apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: invoice
+  namespace: sneakershop
+  labels:
+    k8s-app: invoice
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      k8s-app: invoice
+  template:
+    metadata:
+      name: invoice
+      labels:
+        k8s-app: invoice
+    spec:
+      containers:
+        - name: invoice
+          image: vominhtri1610/sneakershop-invoice:latest
+          securityContext:
+            privileged: false

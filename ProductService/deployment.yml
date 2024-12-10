@@ -1,0 +1,23 @@
+﻿apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: product
+  namespace: sneakershop
+  labels:
+    k8s-app: product
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      k8s-app: product
+  template:
+    metadata:
+      name: product
+      labels:
+        k8s-app: product
+    spec:
+      containers:
+        - name: product
+          image: vominhtri1610/sneakershop--product:latest
+          securityContext:
+            privileged: false

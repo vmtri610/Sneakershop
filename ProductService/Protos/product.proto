@@ -1,0 +1,85 @@
+syntax = "proto3";
+
+option csharp_namespace = "ProductService";
+
+package product;
+
+// The greeting service definition.
+service Product {
+  rpc AddProduct(CreateProductRequest) returns(CreateProductReply);
+  rpc GetNumOfProduct(GetNumOfProductRequest) returns(GetNumOfProductReply);
+  rpc GetProductById(GetProductByIdRequest) returns(GetProductByIdReply);
+  rpc GetProductPaginate(GetProductPaginateRequest) returns(GetProductPaginateReply);
+  rpc UpdateProduct(UpdateProductRequest) returns(UpdateProductReply);
+  rpc DeleteProduct(DeleteProductRequest) returns(DeleteProductReply);
+  rpc GetProductPrice(GetProductPriceRequest) returns(GetProductPriceReply);
+}
+
+message ProductData{
+	string name = 1;
+	int64 id = 2;
+	string description = 3;
+	string category = 4;
+	double price = 5;
+	string imageUrl = 6;
+}
+
+message CreateProductRequest {
+	ProductData data = 1;
+}
+
+message CreateProductReply {
+	string message = 1;
+}
+
+message GetNumOfProductRequest {
+	string message = 1;
+}
+
+message GetNumOfProductReply {
+	int64 total = 1;		
+}
+
+message GetProductByIdRequest {
+	int64 id = 1;
+}
+
+message GetProductByIdReply {
+	ProductData data = 1;
+}
+
+message GetProductPaginateRequest {
+	int32 limit = 2;
+	int64 afterID = 1;
+}
+
+message GetProductPaginateReply {
+	repeated ProductData productList = 1;
+}
+
+message UpdateProductRequest {
+	ProductData data = 1;
+}
+
+message UpdateProductReply {
+	bool isSuccess = 1;
+}
+
+message DeleteProductRequest {
+	int64 id = 1;
+}
+
+message DeleteProductReply {
+	bool isSuccess = 1;
+}
+
+message GetProductPriceRequest {
+	int64 id = 1;
+}
+
+message GetProductPriceReply {
+	double price = 1;
+}
+
+
+

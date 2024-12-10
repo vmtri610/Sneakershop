@@ -1,0 +1,73 @@
+syntax = "proto3";
+
+option csharp_namespace = "OrderService";
+
+package order;
+
+// The greeting service definition.
+service Order {
+	rpc AddOrder(CreateOrderRequest) returns(CreateOrderReply);
+	rpc GetNumOfOrder(GetNumOfOrderRequest) returns(GetNumOfOrderReply);
+	rpc GetOrderById(GetOrderByIdRequest) returns(GetOrderByIdReply);
+	rpc GetOrderPaginate(GetOrderPaginateRequest) returns(GetOrderPaginateReply);
+	rpc DeleteOrder(DeleteOrderRequest) returns(DeleteOrderReply);
+}
+
+message OrderData {
+	int64 id = 1;
+	double total = 2;
+	string createdAt = 3;
+	int64 userID = 4;
+}
+
+message OrderDetailData {
+	int64 id = 1;
+	int64 orderID = 2;
+	int64 prodID = 3;
+	int32 quantity = 4;
+}
+
+message CreateOrderRequest {
+	OrderData orderData = 1;
+	repeated OrderDetailData orderDetailData = 2;
+}
+
+message CreateOrderReply {
+	string message = 1;
+}
+
+message GetNumOfOrderRequest {
+	string message = 1;
+}
+
+message GetNumOfOrderReply {
+	int64 total = 1;		
+}
+
+message GetOrderByIdRequest {
+	int64 id = 1;
+}
+
+message GetOrderByIdReply {
+	OrderData orderData = 1;
+	repeated OrderDetailData orderDetailData = 2;
+}
+
+message GetOrderPaginateRequest {
+	int32 limit = 2;
+	int64 afterID = 1;
+}
+
+message GetOrderPaginateReply {
+
+	repeated OrderData orderList = 1;
+}
+
+message DeleteOrderRequest {
+	int64 id = 1;
+}
+
+message DeleteOrderReply {
+	bool isSuccess = 1;
+}
+

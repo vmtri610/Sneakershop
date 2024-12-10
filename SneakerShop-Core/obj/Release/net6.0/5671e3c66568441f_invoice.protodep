@@ -1,0 +1,2 @@
+obj\Release\net6.0/Invoice.cs \
+obj\Release\net6.0/InvoiceGrpc.cs: ../InvoiceService/Protos/invoice.proto

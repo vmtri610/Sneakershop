@@ -1,0 +1,72 @@
+syntax = "proto3";
+
+option csharp_namespace = "StockService";
+
+package stock;
+
+// The greeting service definition.
+service Stock {
+  rpc AddStock(CreateStockRequest) returns(CreateStockReply);
+  rpc GetNumOfStock(GetNumOfStockRequest) returns(GetNumOfStockReply);
+  rpc GetStockById(GetStockByProdIdRequest) returns(GetStockByProdIdReply);
+  rpc GetStockPaginate(GetStockPaginateRequest) returns(GetStockPaginateReply);
+  rpc UpdateStock(UpdateStockRequest) returns(UpdateStockReply);
+  rpc DeleteStock(DeleteStockRequest) returns(DeleteStockReply);
+
+}
+
+message StockData{
+	int64 id = 1;
+	int64 prodID = 2;
+	int32 quantity = 3;
+}
+
+message CreateStockRequest {
+	StockData data = 1;
+}
+
+message CreateStockReply {
+	string message = 1;
+}
+
+message GetNumOfStockRequest {
+	string message = 1;
+}
+
+message GetNumOfStockReply {
+	int64 total = 1;		
+}
+
+message GetStockByProdIdRequest {
+	int64 prodID = 1;
+}
+
+message GetStockByProdIdReply {
+	StockData data = 1;
+}
+
+message GetStockPaginateRequest {
+	int32 limit = 2;
+	int64 afterID = 1;
+}
+
+message GetStockPaginateReply {
+
+	repeated StockData stockList = 1;
+}
+
+message UpdateStockRequest {
+	StockData data = 1;
+}
+
+message UpdateStockReply {
+	bool isSuccess = 1;
+}
+
+message DeleteStockRequest {
+	int64 id = 1;
+}
+
+message DeleteStockReply {
+	bool isSuccess = 1;
+}

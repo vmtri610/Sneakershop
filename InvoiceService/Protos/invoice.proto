@@ -1,0 +1,62 @@
+syntax = "proto3";
+
+option csharp_namespace = "InvoiceService";
+
+package invoice;
+
+// The greeting service definition.
+service Invoice {
+  rpc AddInvoice(CreateInvoiceRequest) returns(CreateInvoiceReply);
+  rpc GetNumOfInvoice(GetNumOfInvoiceRequest) returns(GetNumOfInvoiceReply);
+  rpc GetInvoiceById(GetInvoiceByIdRequest) returns(GetInvoiceByIdReply);
+  rpc GetInvoicePaginate(GetInvoicePaginateRequest) returns(GetInvoicePaginateReply);
+  rpc DeleteInvoice(DeleteInvoiceRequest) returns(DeleteInvoiceReply);
+}
+
+message InvoiceData {
+	int64 id = 1;
+	int64 orderID = 2;
+	string createAt = 3;
+}
+
+message CreateInvoiceRequest {
+	InvoiceData data = 1;
+}
+
+message CreateInvoiceReply {
+	string message = 1;
+}
+
+message GetNumOfInvoiceRequest {
+	string message = 1;
+}
+
+message GetNumOfInvoiceReply {
+	int64 total = 1;		
+}
+
+message GetInvoiceByIdRequest {
+	int64 id = 1;
+}
+
+message GetInvoiceByIdReply {
+	InvoiceData data = 1;
+}
+
+message GetInvoicePaginateRequest {
+	int32 limit = 2;
+	int64 afterID = 1;
+}
+
+message GetInvoicePaginateReply {
+
+	repeated InvoiceData invoiceList = 1;
+}
+
+message DeleteInvoiceRequest {
+	int64 id = 1;
+}
+
+message DeleteInvoiceReply {
+	bool isSuccess = 1;
+}

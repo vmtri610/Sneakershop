@@ -1,0 +1,23 @@
+﻿apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: order
+  namespace: sneakershop
+  labels:
+    k8s-app: order
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      k8s-app: order
+  template:
+    metadata:
+      name: order
+      labels:
+        k8s-app: order
+    spec:
+      containers:
+        - name: order
+          image: vominhtri1610/sneakershop-order:latest
+          securityContext:
+            privileged: false

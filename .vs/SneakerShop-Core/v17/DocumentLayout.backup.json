@@ -1,0 +1,415 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Repos\\Sem2441\\SA\\SneakerShopSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{764B6830-2D86-4B92-8FED-C4120D389782}|AuthService\\AuthService.csproj|c:\\repos\\sem2441\\sa\\sneakershopsystem\\authservice\\deployment.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{764B6830-2D86-4B92-8FED-C4120D389782}|AuthService\\AuthService.csproj|solutionrelative:authservice\\deployment.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6878F2D-8AB5-4F65-A1E3-85CE37F44F00}|InvoiceService\\InvoiceService.csproj|c:\\repos\\sem2441\\sa\\sneakershopsystem\\invoiceservice\\deployment.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{F6878F2D-8AB5-4F65-A1E3-85CE37F44F00}|InvoiceService\\InvoiceService.csproj|solutionrelative:invoiceservice\\deployment.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1DC1134-C1F5-42DF-BF40-8EEA7BB54B50}|OrderService\\OrderService.csproj|c:\\repos\\sem2441\\sa\\sneakershopsystem\\orderservice\\deployment.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{C1DC1134-C1F5-42DF-BF40-8EEA7BB54B50}|OrderService\\OrderService.csproj|solutionrelative:orderservice\\deployment.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95423153-AEC5-4DD1-8D17-030C39D7B51D}|ProductService\\ProductService.csproj|c:\\repos\\sem2441\\sa\\sneakershopsystem\\productservice\\deployment.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{95423153-AEC5-4DD1-8D17-030C39D7B51D}|ProductService\\ProductService.csproj|solutionrelative:productservice\\deployment.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63CA0065-5ED7-4F94-8B75-A34B2E213E0F}|ShippingService\\ShippingService.csproj|c:\\repos\\sem2441\\sa\\sneakershopsystem\\shippingservice\\deployment.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{63CA0065-5ED7-4F94-8B75-A34B2E213E0F}|ShippingService\\ShippingService.csproj|solutionrelative:shippingservice\\deployment.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06F877D1-468B-41E5-B226-117452177C00}|StockService\\StockService.csproj|c:\\repos\\sem2441\\sa\\sneakershopsystem\\stockservice\\deployment.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{06F877D1-468B-41E5-B226-117452177C00}|StockService\\StockService.csproj|solutionrelative:stockservice\\deployment.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06F877D1-468B-41E5-B226-117452177C00}|StockService\\StockService.csproj|c:\\repos\\sem2441\\sa\\sneakershopsystem\\stockservice\\stockservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{06F877D1-468B-41E5-B226-117452177C00}|StockService\\StockService.csproj|solutionrelative:stockservice\\stockservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D5E0035-E1A4-4E45-B74E-F2F8C2D27EE8}|UserService\\UserService.csproj|c:\\repos\\sem2441\\sa\\sneakershopsystem\\userservice\\deployment.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{4D5E0035-E1A4-4E45-B74E-F2F8C2D27EE8}|UserService\\UserService.csproj|solutionrelative:userservice\\deployment.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06F877D1-468B-41E5-B226-117452177C00}|StockService\\StockService.csproj|c:\\repos\\sem2441\\sa\\sneakershopsystem\\stockservice\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{06F877D1-468B-41E5-B226-117452177C00}|StockService\\StockService.csproj|solutionrelative:stockservice\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{163AB280-D336-43C8-BDE6-258AFE26799E}|SneakerShop-Core\\Gateway.csproj|c:\\repos\\sem2441\\sa\\sneakershopsystem\\sneakershop-core\\gateway.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{163AB280-D336-43C8-BDE6-258AFE26799E}|SneakerShop-Core\\Gateway.csproj|solutionrelative:sneakershop-core\\gateway.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1DC1134-C1F5-42DF-BF40-8EEA7BB54B50}|OrderService\\OrderService.csproj|c:\\repos\\sem2441\\sa\\sneakershopsystem\\orderservice\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1DC1134-C1F5-42DF-BF40-8EEA7BB54B50}|OrderService\\OrderService.csproj|solutionrelative:orderservice\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{163AB280-D336-43C8-BDE6-258AFE26799E}|SneakerShop-Core\\Gateway.csproj|c:\\repos\\sem2441\\sa\\sneakershopsystem\\sneakershop-core\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{163AB280-D336-43C8-BDE6-258AFE26799E}|SneakerShop-Core\\Gateway.csproj|solutionrelative:sneakershop-core\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{163AB280-D336-43C8-BDE6-258AFE26799E}|SneakerShop-Core\\Gateway.csproj|c:\\repos\\sem2441\\sa\\sneakershopsystem\\sneakershop-core\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{163AB280-D336-43C8-BDE6-258AFE26799E}|SneakerShop-Core\\Gateway.csproj|solutionrelative:sneakershop-core\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{163AB280-D336-43C8-BDE6-258AFE26799E}|SneakerShop-Core\\Gateway.csproj|c:\\repos\\sem2441\\sa\\sneakershopsystem\\sneakershop-core\\controllers\\invoicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{163AB280-D336-43C8-BDE6-258AFE26799E}|SneakerShop-Core\\Gateway.csproj|solutionrelative:sneakershop-core\\controllers\\invoicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{163AB280-D336-43C8-BDE6-258AFE26799E}|SneakerShop-Core\\Gateway.csproj|c:\\repos\\sem2441\\sa\\sneakershopsystem\\sneakershop-core\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{163AB280-D336-43C8-BDE6-258AFE26799E}|SneakerShop-Core\\Gateway.csproj|solutionrelative:sneakershop-core\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{764B6830-2D86-4B92-8FED-C4120D389782}|AuthService\\AuthService.csproj|c:\\repos\\sem2441\\sa\\sneakershopsystem\\authservice\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{764B6830-2D86-4B92-8FED-C4120D389782}|AuthService\\AuthService.csproj|solutionrelative:authservice\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1DC1134-C1F5-42DF-BF40-8EEA7BB54B50}|OrderService\\OrderService.csproj|c:\\repos\\sem2441\\sa\\sneakershopsystem\\orderservice\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1DC1134-C1F5-42DF-BF40-8EEA7BB54B50}|OrderService\\OrderService.csproj|solutionrelative:orderservice\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{764B6830-2D86-4B92-8FED-C4120D389782}|AuthService\\AuthService.csproj|c:\\repos\\sem2441\\sa\\sneakershopsystem\\authservice\\models\\auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{764B6830-2D86-4B92-8FED-C4120D389782}|AuthService\\AuthService.csproj|solutionrelative:authservice\\models\\auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{764B6830-2D86-4B92-8FED-C4120D389782}|AuthService\\AuthService.csproj|c:\\repos\\sem2441\\sa\\sneakershopsystem\\authservice\\protos\\auth.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{764B6830-2D86-4B92-8FED-C4120D389782}|AuthService\\AuthService.csproj|solutionrelative:authservice\\protos\\auth.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{163AB280-D336-43C8-BDE6-258AFE26799E}|SneakerShop-Core\\Gateway.csproj|c:\\repos\\sem2441\\sa\\sneakershopsystem\\sneakershop-core\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{163AB280-D336-43C8-BDE6-258AFE26799E}|SneakerShop-Core\\Gateway.csproj|solutionrelative:sneakershop-core\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{163AB280-D336-43C8-BDE6-258AFE26799E}|SneakerShop-Core\\Gateway.csproj|c:\\repos\\sem2441\\sa\\sneakershopsystem\\sneakershop-core\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{163AB280-D336-43C8-BDE6-258AFE26799E}|SneakerShop-Core\\Gateway.csproj|solutionrelative:sneakershop-core\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{764B6830-2D86-4B92-8FED-C4120D389782}|AuthService\\AuthService.csproj|c:\\repos\\sem2441\\sa\\sneakershopsystem\\authservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{764B6830-2D86-4B92-8FED-C4120D389782}|AuthService\\AuthService.csproj|solutionrelative:authservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{163AB280-D336-43C8-BDE6-258AFE26799E}|SneakerShop-Core\\Gateway.csproj|c:\\repos\\sem2441\\sa\\sneakershopsystem\\sneakershop-core\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{163AB280-D336-43C8-BDE6-258AFE26799E}|SneakerShop-Core\\Gateway.csproj|solutionrelative:sneakershop-core\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "deployment.yml",
+              "DocumentMoniker": "C:\\Repos\\Sem2441\\SA\\SneakerShopSystem\\AuthService\\deployment.yml",
+              "RelativeDocumentMoniker": "AuthService\\deployment.yml",
+              "ToolTip": "C:\\Repos\\Sem2441\\SA\\SneakerShopSystem\\AuthService\\deployment.yml",
+              "RelativeToolTip": "AuthService\\deployment.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-12-04T16:36:08.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "deployment.yml",
+              "DocumentMoniker": "C:\\Repos\\Sem2441\\SA\\SneakerShopSystem\\InvoiceService\\deployment.yml",
+              "RelativeDocumentMoniker": "InvoiceService\\deployment.yml",
+              "ToolTip": "C:\\Repos\\Sem2441\\SA\\SneakerShopSystem\\InvoiceService\\deployment.yml",
+              "RelativeToolTip": "InvoiceService\\deployment.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-12-04T16:35:55.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "deployment.yml",
+              "DocumentMoniker": "C:\\Repos\\Sem2441\\SA\\SneakerShopSystem\\OrderService\\deployment.yml",
+              "RelativeDocumentMoniker": "OrderService\\deployment.yml",
+              "ToolTip": "C:\\Repos\\Sem2441\\SA\\SneakerShopSystem\\OrderService\\deployment.yml",
+              "RelativeToolTip": "OrderService\\deployment.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-12-04T16:35:42.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "deployment.yml",
+              "DocumentMoniker": "C:\\Repos\\Sem2441\\SA\\SneakerShopSystem\\ProductService\\deployment.yml",
+              "RelativeDocumentMoniker": "ProductService\\deployment.yml",
+              "ToolTip": "C:\\Repos\\Sem2441\\SA\\SneakerShopSystem\\ProductService\\deployment.yml",
+              "RelativeToolTip": "ProductService\\deployment.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-12-04T16:35:18.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "deployment.yml",
+              "DocumentMoniker": "C:\\Repos\\Sem2441\\SA\\SneakerShopSystem\\ShippingService\\deployment.yml",
+              "RelativeDocumentMoniker": "ShippingService\\deployment.yml",
+              "ToolTip": "C:\\Repos\\Sem2441\\SA\\SneakerShopSystem\\ShippingService\\deployment.yml",
+              "RelativeToolTip": "ShippingService\\deployment.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-12-04T16:35:08.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StockService",
+              "DocumentMoniker": "C:\\Repos\\Sem2441\\SA\\SneakerShopSystem\\StockService\\StockService.csproj",
+              "RelativeDocumentMoniker": "StockService\\StockService.csproj",
+              "ToolTip": "C:\\Repos\\Sem2441\\SA\\SneakerShopSystem\\StockService\\StockService.csproj",
+              "RelativeToolTip": "StockService\\StockService.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-04T16:34:49.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "deployment.yml",
+              "DocumentMoniker": "C:\\Repos\\Sem2441\\SA\\SneakerShopSystem\\UserService\\deployment.yml",
+              "RelativeDocumentMoniker": "UserService\\deployment.yml",
+              "ToolTip": "C:\\Repos\\Sem2441\\SA\\SneakerShopSystem\\UserService\\deployment.yml",
+              "RelativeToolTip": "UserService\\deployment.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-12-04T16:33:44.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Repos\\Sem2441\\SA\\SneakerShopSystem\\StockService\\Dockerfile",
+              "RelativeDocumentMoniker": "StockService\\Dockerfile",
+              "ToolTip": "C:\\Repos\\Sem2441\\SA\\SneakerShopSystem\\StockService\\Dockerfile",
+              "RelativeToolTip": "StockService\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-04T16:29:24.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Gateway",
+              "DocumentMoniker": "C:\\Repos\\Sem2441\\SA\\SneakerShopSystem\\SneakerShop-Core\\Gateway.csproj",
+              "RelativeDocumentMoniker": "SneakerShop-Core\\Gateway.csproj",
+              "ToolTip": "C:\\Repos\\Sem2441\\SA\\SneakerShopSystem\\SneakerShop-Core\\Gateway.csproj",
+              "RelativeToolTip": "SneakerShop-Core\\Gateway.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-04T16:20:13.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Repos\\Sem2441\\SA\\SneakerShopSystem\\OrderService\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "OrderService\\Services\\OrderService.cs",
+              "ToolTip": "C:\\Repos\\Sem2441\\SA\\SneakerShopSystem\\OrderService\\Services\\OrderService.cs",
+              "RelativeToolTip": "OrderService\\Services\\OrderService.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAYwFAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T16:14:12.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Repos\\Sem2441\\SA\\SneakerShopSystem\\OrderService\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "OrderService\\Models\\Order.cs",
+              "ToolTip": "C:\\Repos\\Sem2441\\SA\\SneakerShopSystem\\OrderService\\Models\\Order.cs",
+              "RelativeToolTip": "OrderService\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T16:14:07.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "auth.proto",
+              "DocumentMoniker": "C:\\Repos\\Sem2441\\SA\\SneakerShopSystem\\AuthService\\Protos\\auth.proto",
+              "RelativeDocumentMoniker": "AuthService\\Protos\\auth.proto",
+              "ToolTip": "C:\\Repos\\Sem2441\\SA\\SneakerShopSystem\\AuthService\\Protos\\auth.proto",
+              "RelativeToolTip": "AuthService\\Protos\\auth.proto",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2024-12-04T16:07:19.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Auth.cs",
+              "DocumentMoniker": "C:\\Repos\\Sem2441\\SA\\SneakerShopSystem\\AuthService\\Models\\Auth.cs",
+              "RelativeDocumentMoniker": "AuthService\\Models\\Auth.cs",
+              "ToolTip": "C:\\Repos\\Sem2441\\SA\\SneakerShopSystem\\AuthService\\Models\\Auth.cs",
+              "RelativeToolTip": "AuthService\\Models\\Auth.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T16:06:54.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "deployment.yml",
+              "DocumentMoniker": "C:\\Repos\\Sem2441\\SA\\SneakerShopSystem\\StockService\\deployment.yml",
+              "RelativeDocumentMoniker": "StockService\\deployment.yml",
+              "ToolTip": "C:\\Repos\\Sem2441\\SA\\SneakerShopSystem\\StockService\\deployment.yml",
+              "RelativeToolTip": "StockService\\deployment.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-12-04T15:43:13.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Repos\\Sem2441\\SA\\SneakerShopSystem\\SneakerShop-Core\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "SneakerShop-Core\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Repos\\Sem2441\\SA\\SneakerShopSystem\\SneakerShop-Core\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "SneakerShop-Core\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T16:16:32.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Repos\\Sem2441\\SA\\SneakerShopSystem\\SneakerShop-Core\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "SneakerShop-Core\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Repos\\Sem2441\\SA\\SneakerShopSystem\\SneakerShop-Core\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "SneakerShop-Core\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T16:16:40.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Repos\\Sem2441\\SA\\SneakerShopSystem\\AuthService\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "AuthService\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Repos\\Sem2441\\SA\\SneakerShopSystem\\AuthService\\Services\\AuthService.cs",
+              "RelativeToolTip": "AuthService\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T16:06:40.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Repos\\Sem2441\\SA\\SneakerShopSystem\\AuthService\\Program.cs",
+              "RelativeDocumentMoniker": "AuthService\\Program.cs",
+              "ToolTip": "C:\\Repos\\Sem2441\\SA\\SneakerShopSystem\\AuthService\\Program.cs",
+              "RelativeToolTip": "AuthService\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T16:06:33.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "InvoiceController.cs",
+              "DocumentMoniker": "C:\\Repos\\Sem2441\\SA\\SneakerShopSystem\\SneakerShop-Core\\Controllers\\InvoiceController.cs",
+              "RelativeDocumentMoniker": "SneakerShop-Core\\Controllers\\InvoiceController.cs",
+              "ToolTip": "C:\\Repos\\Sem2441\\SA\\SneakerShopSystem\\SneakerShop-Core\\Controllers\\InvoiceController.cs",
+              "RelativeToolTip": "SneakerShop-Core\\Controllers\\InvoiceController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T15:51:42.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Repos\\Sem2441\\SA\\SneakerShopSystem\\SneakerShop-Core\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "SneakerShop-Core\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Repos\\Sem2441\\SA\\SneakerShopSystem\\SneakerShop-Core\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "SneakerShop-Core\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T15:51:38.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Repos\\Sem2441\\SA\\SneakerShopSystem\\SneakerShop-Core\\Program.cs",
+              "RelativeDocumentMoniker": "SneakerShop-Core\\Program.cs",
+              "ToolTip": "C:\\Repos\\Sem2441\\SA\\SneakerShopSystem\\SneakerShop-Core\\Program.cs",
+              "RelativeToolTip": "SneakerShop-Core\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAB0AAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T15:41:18.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Repos\\Sem2441\\SA\\SneakerShopSystem\\SneakerShop-Core\\Dockerfile",
+              "RelativeDocumentMoniker": "SneakerShop-Core\\Dockerfile",
+              "ToolTip": "C:\\Repos\\Sem2441\\SA\\SneakerShopSystem\\SneakerShop-Core\\Dockerfile",
+              "RelativeToolTip": "SneakerShop-Core\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-04T15:41:31.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Repos\\Sem2441\\SA\\SneakerShopSystem\\SneakerShop-Core\\appsettings.json",
+              "RelativeDocumentMoniker": "SneakerShop-Core\\appsettings.json",
+              "ToolTip": "C:\\Repos\\Sem2441\\SA\\SneakerShopSystem\\SneakerShop-Core\\appsettings.json",
+              "RelativeToolTip": "SneakerShop-Core\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-04T15:41:23.17Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

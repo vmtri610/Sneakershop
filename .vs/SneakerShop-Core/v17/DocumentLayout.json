@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Repos\\Sem2441\\SA\\SneakerShopSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4D5E0035-E1A4-4E45-B74E-F2F8C2D27EE8}|UserService\\UserService.csproj|c:\\repos\\sem2441\\sa\\sneakershopsystem\\userservice\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D5E0035-E1A4-4E45-B74E-F2F8C2D27EE8}|UserService\\UserService.csproj|solutionrelative:userservice\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D5E0035-E1A4-4E45-B74E-F2F8C2D27EE8}|UserService\\UserService.csproj|c:\\repos\\sem2441\\sa\\sneakershopsystem\\userservice\\models\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D5E0035-E1A4-4E45-B74E-F2F8C2D27EE8}|UserService\\UserService.csproj|solutionrelative:userservice\\models\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{163AB280-D336-43C8-BDE6-258AFE26799E}|SneakerShop-Core\\Gateway.csproj|c:\\repos\\sem2441\\sa\\sneakershopsystem\\sneakershop-core\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{163AB280-D336-43C8-BDE6-258AFE26799E}|SneakerShop-Core\\Gateway.csproj|solutionrelative:sneakershop-core\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{764B6830-2D86-4B92-8FED-C4120D389782}|AuthService\\AuthService.csproj|c:\\repos\\sem2441\\sa\\sneakershopsystem\\authservice\\models\\authcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{764B6830-2D86-4B92-8FED-C4120D389782}|AuthService\\AuthService.csproj|solutionrelative:authservice\\models\\authcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthContext.cs",
+              "DocumentMoniker": "C:\\Repos\\Sem2441\\SA\\SneakerShopSystem\\AuthService\\Models\\AuthContext.cs",
+              "RelativeDocumentMoniker": "AuthService\\Models\\AuthContext.cs",
+              "ToolTip": "C:\\Repos\\Sem2441\\SA\\SneakerShopSystem\\AuthService\\Models\\AuthContext.cs",
+              "RelativeToolTip": "AuthService\\Models\\AuthContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T19:32:29.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Repos\\Sem2441\\SA\\SneakerShopSystem\\SneakerShop-Core\\Program.cs",
+              "RelativeDocumentMoniker": "SneakerShop-Core\\Program.cs",
+              "ToolTip": "C:\\Repos\\Sem2441\\SA\\SneakerShopSystem\\SneakerShop-Core\\Program.cs",
+              "RelativeToolTip": "SneakerShop-Core\\Program.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAAC8AAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T19:14:37.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserContext.cs",
+              "DocumentMoniker": "C:\\Repos\\Sem2441\\SA\\SneakerShopSystem\\UserService\\Models\\UserContext.cs",
+              "RelativeDocumentMoniker": "UserService\\Models\\UserContext.cs",
+              "ToolTip": "C:\\Repos\\Sem2441\\SA\\SneakerShopSystem\\UserService\\Models\\UserContext.cs",
+              "RelativeToolTip": "UserService\\Models\\UserContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T18:49:50.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Repos\\Sem2441\\SA\\SneakerShopSystem\\UserService\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "UserService\\Services\\UserService.cs",
+              "ToolTip": "C:\\Repos\\Sem2441\\SA\\SneakerShopSystem\\UserService\\Services\\UserService.cs",
+              "RelativeToolTip": "UserService\\Services\\UserService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwE0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T19:01:27.249Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

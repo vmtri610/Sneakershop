@@ -1,0 +1,23 @@
+﻿apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: shipping
+  namespace: sneakershop
+  labels:
+    k8s-app: shipping
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      k8s-app: shipping
+  template:
+    metadata:
+      name: shipping
+      labels:
+        k8s-app: shipping
+    spec:
+      containers:
+        - name: shipping
+          image: vominhtri1610/sneakershop--shipping:latest
+          securityContext:
+            privileged: false
